@@ -108,4 +108,15 @@
         android:text="@string/text10_before_list" />
 
 
+    <TextView
+        android:id="@+id/text11_before_list"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2000dp"
+        android:text="@string/text11_before_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+
 </RelativeLayout>
