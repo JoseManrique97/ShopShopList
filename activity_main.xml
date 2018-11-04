@@ -117,6 +117,7 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent" />
 
+
     <TextView
         android:id="@+id/text12_before_list"
         android:layout_alignParentTop="true"
