@@ -75,9 +75,9 @@
         android:id="@+id/text7_before_list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="352dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="241dp"
         android:text="@string/text7_before_list" />
 
     <TextView
@@ -102,9 +102,9 @@
         android:id="@+id/text10_before_list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="242dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
         android:text="@string/text10_before_list" />
 
 
