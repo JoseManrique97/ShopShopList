@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView articulo19;
     private TextView articulo20;
 
+//METODO PARA ENCONTRAR Y GUARDAR EN EL TEXT VIEW EL ARTICULO PRESIONADO EN LA SEGUNDA ACTIVIDAD
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
