@@ -160,6 +160,38 @@
         android:text="@string/text11_before_list"
         android:layout_height="match_parent"
         android:layout_width="match_parent" />
+    <TextView
+        android:id="@+id/text17_before_list"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2000dp"
+        android:text="@string/text11_before_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+    <TextView
+        android:id="@+id/text18_before_list"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2000dp"
+        android:text="@string/text11_before_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+    <TextView
+        android:id="@+id/text19_before_list"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2000dp"
+        android:text="@string/text11_before_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+    <TextView
+        android:id="@+id/text20_before_list"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2000dp"
+        android:text="@string/text11_before_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
 
 
 </RelativeLayout>

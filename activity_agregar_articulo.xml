@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-
+        // BOTON Y TEXTVIEW DE CHUPETA
         <Button
             android:id="@+id/button_1"
             android:layout_width="83dp"
@@ -43,6 +43,7 @@
             app:layout_constraintTop_toTopOf="parent"
             android:id="@+id/chupetas"/>
 
+        // BOTON Y TEXTVIEW DE DORITOS
         <Button
             android:id="@+id/button_2"
             android:layout_width="83dp"
@@ -73,6 +74,7 @@
             app:layout_constraintStart_toEndOf="@+id/button_2"
             app:layout_constraintTop_toTopOf="parent" />
 
+        // BOTON Y TEXTVIEW DE HALLS
         <Button
             android:id="@+id/button_3"
             android:layout_width="83dp"
@@ -103,6 +105,7 @@
             app:layout_constraintStart_toEndOf="@+id/button_2"
             app:layout_constraintTop_toTopOf="parent" />
 
+        // BOTON Y TEXTVIEW DE CRICRI
         <Button
             android:id="@+id/button_5"
             android:layout_width="83dp"
@@ -133,6 +136,8 @@
             app:layout_constraintStart_toEndOf="@+id/button_2"
             app:layout_constraintTop_toTopOf="parent" />
 
+        // BOTON Y TEXTVIEW DE CHEETOS
+
         <Button
             android:id="@+id/button_7"
             android:layout_width="83dp"
@@ -162,6 +167,9 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/button_2"
             app:layout_constraintTop_toTopOf="parent" />
+
+        // BOTON Y TEXTVIEW DE GALAK
+
         <Button
             android:id="@+id/button_8"
             android:layout_width="83dp"
@@ -191,6 +199,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/button_2"
             app:layout_constraintTop_toTopOf="parent" />
+
+        // BOTON Y TEXTVIEW DE HERSHEY
 
         <Button
             android:id="@+id/button_9"
@@ -222,6 +232,8 @@
             app:layout_constraintStart_toEndOf="@+id/button_2"
             app:layout_constraintTop_toTopOf="parent" />
 
+        // BOTON Y TEXTVIEW DE NERDS
+
         <Button
             android:id="@+id/button_10"
             android:layout_width="83dp"
@@ -232,7 +244,6 @@
             android:layout_marginStart="56dp"
             android:layout_marginLeft="56dp"
             android:layout_marginTop="750dp"
-
             android:background="@drawable/nerds"
             android:onClick="launchnerds"
             app:layout_constraintStart_toStartOf="parent"
@@ -252,6 +263,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/button_2"
             app:layout_constraintTop_toTopOf="parent" />
+
+        // BOTON Y TEXTVIEW DE PIRULIN
 
         <Button
             android:id="@+id/button_11"
@@ -284,6 +297,8 @@
             app:layout_constraintStart_toEndOf="@+id/button_2"
             app:layout_constraintTop_toTopOf="parent" />
 
+        // BOTON Y TEXTVIEW DE PLATANITOS
+
         <Button
             android:id="@+id/button_12"
             android:layout_width="83dp"
@@ -313,6 +328,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/button_2"
             app:layout_constraintTop_toTopOf="parent" />
+
+        // BOTON Y TEXTVIEW DE OREO
 
         <Button
             android:id="@+id/button_13"
@@ -344,6 +361,8 @@
             app:layout_constraintStart_toEndOf="@+id/button_2"
             app:layout_constraintTop_toTopOf="parent" />
 
+        // BOTON Y TEXTVIEW DE SAMBA
+
         <Button
             android:id="@+id/button_14"
             android:layout_width="83dp"
@@ -373,6 +392,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/button_2"
             app:layout_constraintTop_toTopOf="parent" />
+
+        // BOTON Y TEXTVIEW DE CHOCOLATE
 
         <Button
             android:id="@+id/button_16"
@@ -404,6 +425,8 @@
             app:layout_constraintStart_toEndOf="@+id/button_2"
             app:layout_constraintTop_toTopOf="parent" />
 
+        // BOTON Y TEXTVIEW DE SORBETICOS
+
         <Button
             android:id="@+id/button_17"
             android:layout_width="83dp"
@@ -433,6 +456,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/button_2"
             app:layout_constraintTop_toTopOf="parent" />
+
+        // BOTON Y TEXTVIEW DE ZUCARITAS
 
         <Button
             android:id="@+id/button_18"
@@ -464,6 +489,135 @@
             app:layout_constraintStart_toEndOf="@+id/button_2"
             app:layout_constraintTop_toTopOf="parent" />
 
+        // BOTON Y TEXTVIEW DE COCOSETTE
+
+        <Button
+            android:id="@+id/button_19"
+            android:layout_width="83dp"
+            android:layout_height="76dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="1550dp"
+            android:background="@drawable/cocosette"
+            android:onClick="launchcocosette"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/cocosette"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button_19"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="1575dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/cocosette"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button_2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        // BOTON Y TEXTVIEW DE MYM
+
+        <Button
+            android:id="@+id/button_20"
+            android:layout_width="83dp"
+            android:layout_height="76dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="1650dp"
+            android:background="@drawable/mym"
+            android:onClick="launchmym"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/mym"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button_20"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="1675dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/mym"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button_2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        // BOTON Y TEXTVIEW DE PRINGLES
+
+        <Button
+            android:id="@+id/button_21"
+            android:layout_width="83dp"
+            android:layout_height="76dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="1750dp"
+            android:background="@drawable/pringles"
+            android:onClick="launchpringles"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pringles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button_21"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="1775dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/pringles"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button_2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        // BOTON Y TEXTVIEW DE FROOT LOOPS
+
+        <Button
+            android:id="@+id/button_22"
+            android:layout_width="83dp"
+            android:layout_height="76dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="1850dp"
+            android:background="@drawable/frootloops"
+            android:onClick="launchfrootloops"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/frootloops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button_22"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="1875dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/frootloops"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button_2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        // BOTON Y TEXTVIEW DE FLIPS
 
         <Button
             android:id="@+id/button_6"
@@ -474,7 +628,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="56dp"
             android:layout_marginLeft="56dp"
-            android:layout_marginTop="1566dp"
+            android:layout_marginTop="1966dp"
             android:layout_marginBottom="36dp"
             android:background="@drawable/flips"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -489,7 +643,7 @@
             android:layout_alignBaseline="@+id/button_5"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="1582dp"
+            android:layout_marginTop="1982dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/flips"
