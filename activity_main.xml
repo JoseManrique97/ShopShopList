@@ -110,7 +110,50 @@
 
     <TextView
         android:id="@+id/text11_before_list"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2000dp"
+        android:text="@string/text11_before_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
 
+    <TextView
+        android:id="@+id/text12_before_list"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2000dp"
+        android:text="@string/text11_before_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:id="@+id/text13_before_list"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2000dp"
+        android:text="@string/text11_before_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:id="@+id/text14_before_list"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2000dp"
+        android:text="@string/text11_before_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:id="@+id/text15_before_list"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2000dp"
+        android:text="@string/text11_before_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+    <TextView
+        android:id="@+id/text16_before_list"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="2000dp"
