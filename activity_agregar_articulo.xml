@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        // BOTON Y TEXTVIEW DE CHUPETA
+        //BOTON Y TEXTVIEW DE CHUPETA
         <Button
             android:id="@+id/button_1"
             android:layout_width="83dp"
@@ -84,7 +84,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="56dp"
             android:layout_marginLeft="56dp"
-            android:layout_marginTop="260dp"
+            android:layout_marginTop="245dp"
             android:background="@drawable/halls"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -97,7 +97,7 @@
             android:layout_alignBaseline="@+id/button_3"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="282dp"
+            android:layout_marginTop="278dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/halls"
@@ -596,7 +596,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="56dp"
             android:layout_marginLeft="56dp"
-            android:layout_marginTop="1850dp"
+            android:layout_marginTop="1860dp"
             android:background="@drawable/frootloops"
             android:onClick="launchfrootloops"
             app:layout_constraintStart_toStartOf="parent"
@@ -609,7 +609,7 @@
             android:layout_alignBaseline="@+id/button_22"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="1875dp"
+            android:layout_marginTop="1885dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:text="@string/frootloops"
